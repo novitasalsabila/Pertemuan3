@@ -6,9 +6,9 @@ double rerata(double a,double b){
 }
 string status (double c){
     if (c >= 60)
-        return "Lulus";
+    return "Lulus";
     else
-        return "gagal";
+    return "gagal";
 }
 int main(){
     double nilM,nilB;
@@ -22,7 +22,7 @@ int main(){
     //st = status (rata);
     //cout << "Status kelulusan = " << st;
     //cout << "Status kelulusan = " << status(rata);
-    cout << "Status kelulusan = "<< status (rerata(nilM,nilB));
+    cout << "status kelulusan = "<< status (rerata(nilM,nilB));
     return 0;
 
 
